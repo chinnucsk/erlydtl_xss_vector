@@ -1,0 +1,12 @@
+{application,hammerl,
+             [{description,"Yet another blog engine."},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[mimetypes,emysql,erlydtl,cowboy,inets,kernel,
+                             observer,ranch,runtime_tools,stdlib,simple_cache,
+                             wx]},
+              {mod,{hammerl_app,[]}},
+              {env,[]},
+              {modules,[about,blog,connection,context,gen_handlers,hammerl,
+                        hammerl_app,hammerl_sup,index,statistics,stats,
+                        stats_sup]}]}.
